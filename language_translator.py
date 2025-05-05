@@ -160,13 +160,13 @@ def display_history(history):
 
 def main():
     st.set_page_config(
-        page_title="Multi-API Language Translator",
+        page_title="Linguazinibananini",
         page_icon="🌐",
         layout="wide",
         initial_sidebar_state="expanded"
     )
     
-    st.title("🌐 Language Translator")
+    st.title("Linguazinibananini")
     st.markdown("""
     Translate text between 100+ languages using Google Translate or MyMemory API.
     """)
