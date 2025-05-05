@@ -186,33 +186,6 @@ def main():
         st.header("Settings")
         api = st.selectbox("Translation API:", ["Google Translate", "MyMemory"])
         
-        # Language quick filters
-        st.subheader("Popular Languages")
-        if st.button("English ⟷ Tagalog"):
-            st.session_state.quick_src = "English"
-            st.session_state.quick_dst = "Tagalog"
-            st.experimental_rerun()
-        
-        col1, col2 = st.columns(2)
-        with col1:
-            if st.button("EN ⟷ ES"):
-                st.session_state.quick_src = "English"
-                st.session_state.quick_dst = "Spanish"
-                st.experimental_rerun()
-            if st.button("EN ⟷ FR"):
-                st.session_state.quick_src = "English"
-                st.session_state.quick_dst = "French"
-                st.experimental_rerun()
-        with col2:
-            if st.button("EN ⟷ ZH"):
-                st.session_state.quick_src = "English"
-                st.session_state.quick_dst = "Chinese (Simplified)"
-                st.experimental_rerun()
-            if st.button("EN ⟷ JA"):
-                st.session_state.quick_src = "English"
-                st.session_state.quick_dst = "Japanese"
-                st.experimental_rerun()
-        
         st.divider()
         
         st.header("Translation History")
