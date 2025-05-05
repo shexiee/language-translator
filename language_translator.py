@@ -13,7 +13,7 @@ LANGUAGES = {
     'ca': 'Catalan', 'ceb': 'Cebuano', 'co': 'Corsican', 'cs': 'Czech', 
     'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 
     'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian',
-    'eu': 'Basque', 'fa': 'Persian', 'fi': 'Finnish', 'fil': 'Filipino', 'tl': 'Tagalog',
+    'eu': 'Basque', 'fa': 'Persian', 'fi': 'Finnish', 'tl': 'Tagalog',
     'fr': 'French', 'fy': 'Frisian', 'ga': 'Irish', 'gd': 'Scots Gaelic',
     'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'haw': 'Hawaiian',
     'he': 'Hebrew', 'hi': 'Hindi', 'hmn': 'Hmong', 'hr': 'Croatian',
@@ -188,9 +188,9 @@ def main():
         
         # Language quick filters
         st.subheader("Popular Languages")
-        if st.button("English ⟷ Filipino"):
+        if st.button("English ⟷ Tagalog"):
             st.session_state.quick_src = "English"
-            st.session_state.quick_dst = "Filipino"
+            st.session_state.quick_dst = "Tagalog"
             st.experimental_rerun()
         
         col1, col2 = st.columns(2)
