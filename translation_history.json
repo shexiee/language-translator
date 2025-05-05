@@ -5,5 +5,13 @@
     "source_text": "hello",
     "translated_text": "Hola",
     "api": "Google Translate"
+  },
+  {
+    "source_lang": "English",
+    "target_lang": "Japanese",
+    "source_text": "Hello",
+    "translated_text": "こんにちは",
+    "api": "Google Translate",
+    "timestamp": "2025-05-05 16:02:00"
   }
 ]
