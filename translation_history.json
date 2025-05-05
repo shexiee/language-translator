@@ -1,0 +1,9 @@
+[
+  {
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "hello",
+    "translated_text": "Hola",
+    "api": "Google Translate"
+  }
+]
