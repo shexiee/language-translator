@@ -1,103 +1,225 @@
-# Vocumi — your cozy translator
+<div align="center">
+
+<img src="./.github/banner.svg" alt="Vocumi — your cozy translator" width="100%" />
+
+<br />
+
+[![Next.js](https://img.shields.io/badge/Next.js-15-5B4632?style=for-the-badge&labelColor=FAF2E6&logo=next.js&logoColor=5B4632)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19-D97742?style=for-the-badge&labelColor=FAF2E6&logo=react&logoColor=D97742)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-8A6B4F?style=for-the-badge&labelColor=FAF2E6&logo=typescript&logoColor=8A6B4F)](https://typescriptlang.org)
+[![Tailwind](https://img.shields.io/badge/Tailwind-3.4-E89968?style=for-the-badge&labelColor=FAF2E6&logo=tailwindcss&logoColor=E89968)](https://tailwindcss.com)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-3A2C1E?style=for-the-badge&labelColor=FAF2E6&logo=vercel&logoColor=3A2C1E)](https://vercel.com)
+
+<br />
 
 > *Translate the world, cozy as a kitchen window.*
 
-A warm, premium translator across 100+ languages. Built to feel like sunlight through a curtain — soft, slow, deliberate. Powered by Next.js 15 and ready to deploy to Vercel with zero config.
+<sub>A warm, premium translator across 100+ languages — soft, slow, deliberate.</sub>
 
-## Design
+</div>
 
-Vocumi's look is built on three feelings: **warm**, **calm**, **considered**.
+<br />
 
-**Palette**
-- `cream` — paper-white background that warms toward amber at the edges
-- `amber` — the gentle sienna accent used for focus, highlights, and the brand mark
-- `cocoa` — soft brown ink used in place of harsh black
+---
 
-**Typography**
-- **Fraunces** — a soft, slightly bookish serif used for headings, brand, and the translation text itself (the *content* feels editorial)
-- **Inter** — a clean sans used for UI chrome (buttons, labels, captions)
+## ✦ &nbsp; The vibe
 
-**Surfaces & motion**
-- Glassmorphic translator card with a subtle inset highlight and a *cozy* shadow (long, soft, low-opacity)
-- A faint grain texture and two warm radial gradients in the background
-- Framer Motion drives every transition — selector reveals, swap-button rotation, panel slides, translation crossfades
-- Selection highlight, scrollbars, and focus rings are all tinted amber to keep the palette consistent end-to-end
+Vocumi is built on three feelings: **warm**, **calm**, **considered**. Every surface, every motion, every word is tuned to feel like sunlight through a curtain.
 
-**Iconography**
-- [Lucide](https://lucide.dev) for outline icons
-- [flag-icons](https://github.com/lipis/flag-icons) for crisp SVG country flags that render identically on Windows, macOS, and Linux (sidesteps the missing-flag-emoji problem on Windows)
-- A custom SVG mark for the Vocumi logo — a stylized teacup wrapped in a speech curve
+<br />
 
-## Stack
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🫖 &nbsp; Warm</h3>
+      <sub>Cream backgrounds, amber accents, cocoa ink in place of harsh black. A faint paper grain over a two-stop radial glow.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🌿 &nbsp; Calm</h3>
+      <sub>Translation streams as you type — no buttons to mash. Animations are slow springs, not snappy easings. Selection and focus stay amber-tinted.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <h3>📜 &nbsp; Considered</h3>
+      <sub>Fraunces serif for content (the translation feels editorial). Inter sans for UI chrome. SVG flags so Windows users get real flags, not letter pairs.</sub>
+    </td>
+  </tr>
+</table>
 
-- **Next.js 15** — App Router, edge-runtime API routes
-- **React 19** + **TypeScript** (strict)
-- **Tailwind CSS** — custom cozy palette, custom shadows, custom keyframes
-- **Framer Motion** — page, panel, and micro-interaction animations
-- **Lucide** + **flag-icons** — icons and flags
-- **Fraunces** + **Inter** via `next/font/google` (zero-CLS, self-hosted)
+<br />
 
-## Features
+## ✦ &nbsp; Palette
 
-- ✦ **Translate-as-you-type** with debounce — no "Translate" button needed
-- ✦ **Auto language detection** with a live "Detected: …" badge
-- ✦ **100+ languages** in a searchable selector with SVG flags
-- ✦ **One-click swap** between source and target (with translated-text carry-over)
-- ✦ **Text-to-speech** for both source and translation
-- ✦ **Copy / Save / Clear** actions with subtle confirmation states
-- ✦ **History drawer** — saved translations persist in `localStorage`, with restore + remove + clear-all
-- ✦ **Resilient translation** — Google's public endpoint primary, MyMemory automatic fallback
-- ✦ **Accessible & responsive** — works from 320px to 4K, full keyboard support, ARIA labels
+<table>
+  <tr>
+    <td><img src="https://readme-swatches.vercel.app/FDF9F3?style=round&size=100" width="60" height="60" /></td>
+    <td><img src="https://readme-swatches.vercel.app/FAF2E6?style=round&size=100" width="60" height="60" /></td>
+    <td><img src="https://readme-swatches.vercel.app/F4E4CC?style=round&size=100" width="60" height="60" /></td>
+    <td><img src="https://readme-swatches.vercel.app/E89968?style=round&size=100" width="60" height="60" /></td>
+    <td><img src="https://readme-swatches.vercel.app/D97742?style=round&size=100" width="60" height="60" /></td>
+    <td><img src="https://readme-swatches.vercel.app/8A6B4F?style=round&size=100" width="60" height="60" /></td>
+    <td><img src="https://readme-swatches.vercel.app/5B4632?style=round&size=100" width="60" height="60" /></td>
+    <td><img src="https://readme-swatches.vercel.app/3A2C1E?style=round&size=100" width="60" height="60" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub><code>cream-50</code></sub></td>
+    <td align="center"><sub><code>cream-100</code></sub></td>
+    <td align="center"><sub><code>cream-200</code></sub></td>
+    <td align="center"><sub><code>amber-glow</code></sub></td>
+    <td align="center"><sub><code>amber-warm</code></sub></td>
+    <td align="center"><sub><code>cocoa-400</code></sub></td>
+    <td align="center"><sub><code>cocoa-600</code></sub></td>
+    <td align="center"><sub><code>cocoa-800</code></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><sub><code>#FDF9F3</code></sub></td>
+    <td align="center"><sub><code>#FAF2E6</code></sub></td>
+    <td align="center"><sub><code>#F4E4CC</code></sub></td>
+    <td align="center"><sub><code>#E89968</code></sub></td>
+    <td align="center"><sub><code>#D97742</code></sub></td>
+    <td align="center"><sub><code>#8A6B4F</code></sub></td>
+    <td align="center"><sub><code>#5B4632</code></sub></td>
+    <td align="center"><sub><code>#3A2C1E</code></sub></td>
+  </tr>
+</table>
 
-## Local development
+<br />
+
+## ✦ &nbsp; Typography
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://fonts.google.com/specimen/Fraunces">Fraunces</a></h3>
+      <sub>The bookish serif used for the brand mark, hero, and the translation content itself — soft optical sizes, a hint of wonk. Reading a translation should feel like opening a paperback.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://fonts.google.com/specimen/Inter">Inter</a></h3>
+      <sub>The clean sans used for UI chrome — buttons, labels, captions, selectors. Stays quiet so Fraunces can sing.</sub>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+## ✦ &nbsp; Features
+
+<table>
+  <tr>
+    <td>🌍</td>
+    <td><b>100+ languages</b> in a searchable picker with crisp SVG flags</td>
+    <td>✨</td>
+    <td><b>Auto-detect</b> source language with a live confidence badge</td>
+  </tr>
+  <tr>
+    <td>⌨️</td>
+    <td><b>Translate-as-you-type</b> with debounce — no buttons to mash</td>
+    <td>🔄</td>
+    <td><b>One-tap swap</b> between source and target (text carries over)</td>
+  </tr>
+  <tr>
+    <td>🔊</td>
+    <td><b>Text-to-speech</b> for both source and translation</td>
+    <td>📋</td>
+    <td><b>Copy, save, clear</b> with subtle confirmation states</td>
+  </tr>
+  <tr>
+    <td>📚</td>
+    <td><b>History drawer</b> persists to <code>localStorage</code> — restore, remove, clear-all</td>
+    <td>🛡️</td>
+    <td><b>Resilient</b> — Google primary, MyMemory automatic fallback</td>
+  </tr>
+  <tr>
+    <td>📱</td>
+    <td><b>Responsive</b> from 320px to 4K, full keyboard support</td>
+    <td>♿</td>
+    <td><b>Accessible</b> — ARIA labels, focus rings, semantic HTML</td>
+  </tr>
+</table>
+
+<br />
+
+## ✦ &nbsp; Stack
+
+| Layer | Tool |
+|---|---|
+| Framework | **Next.js 15** — App Router, edge-runtime API routes |
+| Runtime | **React 19** + **TypeScript** (strict) |
+| Styling | **Tailwind CSS 3.4** — custom palette, shadows, keyframes |
+| Motion | **Framer Motion 11** — page, panel, micro-interaction animations |
+| Icons | **Lucide** outline icons + **flag-icons** SVG country flags |
+| Fonts | **Fraunces** + **Inter** via `next/font/google` (zero-CLS) |
+| Translation | **Google** public endpoint (primary) → **MyMemory** (fallback) |
+
+<br />
+
+## ✦ &nbsp; Quickstart
 
 ```bash
 npm install
-npm run dev
+npm run dev          # → http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
-
 ```bash
-npm run build   # production build
-npm run start   # serve the production build
-npm run lint    # lint
+npm run build        # production build
+npm run start        # serve production
+npm run lint         # eslint
 ```
 
-## Deploy to Vercel
+<br />
+
+## ✦ &nbsp; Deploy
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>One click</h3>
+      <sub>Import the repo on <a href="https://vercel.com/new">vercel.com</a>. Defaults work — no env vars required.</sub>
+    </td>
+    <td valign="top" width="50%">
+      <h3>CLI</h3>
 
 ```bash
-# Easiest: import this repo on vercel.com — defaults work out of the box.
-# Or via CLI:
 npm i -g vercel
 vercel
 ```
 
-No environment variables required.
+  </td>
+  </tr>
+</table>
 
-## Project layout
+<br />
+
+## ✦ &nbsp; Project layout
 
 ```
 src/
 ├── app/
-│   ├── api/translate/route.ts   # edge-runtime translation endpoint (Google + MyMemory)
-│   ├── layout.tsx               # fonts, metadata, viewport
-│   ├── page.tsx                 # hero + translator
-│   └── globals.css              # cozy theme, glass card, scrollbars, grain
+│   ├── api/translate/route.ts   ← edge-runtime translation (Google + MyMemory)
+│   ├── layout.tsx               ← fonts, metadata, viewport
+│   ├── page.tsx                 ← hero + translator
+│   └── globals.css              ← cozy theme, glass card, scrollbars, grain
 ├── components/
-│   ├── translator.tsx           # main interactive UI (state, debounce, actions)
-│   ├── language-selector.tsx    # searchable language picker with motion
-│   ├── history-panel.tsx        # slide-out history drawer
-│   ├── flag.tsx                 # SVG flag with auto-detect & globe fallbacks
-│   └── logo.tsx                 # Vocumi brand mark
+│   ├── translator.tsx           ← main interactive UI (state, debounce, actions)
+│   ├── language-selector.tsx    ← searchable language picker with motion
+│   ├── history-panel.tsx        ← slide-out history drawer
+│   ├── flag.tsx                 ← SVG flag with auto-detect & globe fallbacks
+│   └── logo.tsx                 ← Vocumi brand mark
 └── lib/
-    ├── languages.ts             # 100+ languages with ISO country codes
-    ├── storage.ts               # localStorage history helpers
-    └── utils.ts                 # cn(), debounce, timestamp formatting
+    ├── languages.ts             ← 100+ languages with ISO country codes
+    ├── storage.ts               ← localStorage history helpers
+    └── utils.ts                 ← cn(), debounce, timestamp formatting
 ```
 
-## Credits
+<br />
 
-Translation via Google Translate's public endpoint with [MyMemory](https://mymemory.translated.net) as a graceful fallback. Both are free and require no API keys.
+---
 
-— *brewed with care.*
+<div align="center">
+
+<sub>Translation by <a href="https://translate.google.com">Google Translate</a> · fallback by <a href="https://mymemory.translated.net">MyMemory</a> · both free, no API keys</sub>
+
+<br />
+
+<sub><b>Vocumi</b> · brewed with care · ✦</sub>
+
+</div>
