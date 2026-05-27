@@ -15,7 +15,7 @@ export default function Home() {
           </div>
         </div>
         <a
-          href="https://github.com"
+          href="https://github.com/shexiee/vocumi-translator"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden text-xs font-medium text-cocoa-400 transition-colors hover:text-amber-warm sm:inline-flex"
