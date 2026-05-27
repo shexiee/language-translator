@@ -18,12 +18,27 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Vocumi — your cozy translator",
   description:
-    "Vocumi is your cozy companion for translating between 100+ languages. Warm, fast, and effortlessly elegant.",
+    "a soft little translator across 100+ languages. no rush, no popups, just a cozy place to translate things ♡",
   keywords: ["translator", "language", "vocumi", "cozy", "translation"],
+  manifest: "/site.webmanifest",
+  applicationName: "Vocumi",
+  appleWebApp: {
+    capable: true,
+    title: "Vocumi",
+    statusBarStyle: "default",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
   openGraph: {
     title: "Vocumi — your cozy translator",
-    description: "Warm, fast translation across 100+ languages.",
+    description: "translate, take your time. 100+ languages, no rush ♡",
     type: "website",
+    siteName: "Vocumi",
   },
 };
 

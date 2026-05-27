@@ -209,7 +209,7 @@ export function Translator() {
           <PanelArea
             label="Original"
             text={sourceText}
-            placeholder="Type or paste something cozy…"
+            placeholder="type something ♡"
             onChange={(v) => setSourceText(v.slice(0, MAX_INPUT))}
             editable
             footerLeft={
@@ -248,7 +248,7 @@ export function Translator() {
           <PanelArea
             label="Translation"
             text={translatedText}
-            placeholder="Your translation will appear here…"
+            placeholder="it&rsquo;ll show up here ✨"
             editable={false}
             loading={loading}
             error={error}
@@ -299,7 +299,7 @@ export function Translator() {
 
         <div className="mt-6 flex items-center justify-between gap-3">
           <p className="text-xs text-cocoa-400">
-            Translations stream automatically as you type.
+            no buttons. just type ♡
           </p>
           <button
             onClick={() => setHistoryOpen(true)}

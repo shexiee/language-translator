@@ -20,20 +20,19 @@ export default function Home() {
           rel="noopener noreferrer"
           className="hidden text-xs font-medium text-cocoa-400 transition-colors hover:text-amber-warm sm:inline-flex"
         >
-          Made with warmth ✦
+          source ✦
         </a>
       </header>
 
       <section className="mb-10 text-center sm:mb-14">
         <h2 className="mx-auto max-w-3xl text-balance font-serif text-4xl font-medium leading-[1.1] tracking-tight text-cocoa-800 sm:text-5xl md:text-6xl">
-          Translate the world,
+          translate,{" "}
           <span className="bg-gradient-to-r from-amber-warm to-amber-glow bg-clip-text text-transparent">
-            {" "}cozy as a kitchen window.
+            take your time.
           </span>
         </h2>
         <p className="mx-auto mt-5 max-w-xl text-balance text-base text-cocoa-600 sm:text-lg">
-          A warm, premium translator across 100+ languages — instant, beautiful,
-          and quietly powerful.
+          100+ languages, no rush. type a little, type a lot ✿ vocumi handles the rest.
         </p>
       </section>
 
@@ -41,9 +40,9 @@ export default function Home() {
 
       <footer className="mt-16 flex flex-col items-center justify-between gap-3 text-center text-xs text-cocoa-400 sm:flex-row sm:text-left">
         <p>
-          Vocumi · brewed with care · {new Date().getFullYear()}
+          vocumi · a soft place for words · 2025
         </p>
-        <p>Translation by Google · MyMemory fallback</p>
+        <p>google up front · mymemory backs it up ♡</p>
       </footer>
     </main>
   );

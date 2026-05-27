@@ -73,10 +73,10 @@ export function HistoryPanel({
                     <Clock className="h-7 w-7 text-cocoa-400/60" />
                   </div>
                   <p className="font-serif text-lg text-cocoa-600">
-                    Nothing here yet
+                    still empty ♡
                   </p>
                   <p className="mt-1 max-w-[240px] text-sm text-cocoa-400">
-                    Your saved translations will appear here, cozy and ready to revisit.
+                    tap the lil star on a translation you love &mdash; it&rsquo;ll wait here for you.
                   </p>
                 </div>
               ) : (

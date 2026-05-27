@@ -12,9 +12,9 @@
 
 <br />
 
-> *Translate the world, cozy as a kitchen window.*
+> *translate, take your time.*
 
-<sub>A warm, premium translator across 100+ languages — soft, slow, deliberate.</sub>
+<sub>a soft little place to translate things ♡ 100+ languages, no rush, no popups.</sub>
 
 </div>
 
@@ -22,25 +22,25 @@
 
 ---
 
-## ✦ &nbsp; The vibe
+## ✦ &nbsp; the vibe
 
-Vocumi is built on three feelings: **warm**, **calm**, **considered**. Every surface, every motion, every word is tuned to feel like sunlight through a curtain.
+i wanted a translator that felt soft. so i made one ♡
 
 <br />
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>🫖 &nbsp; Warm</h3>
-      <sub>Cream backgrounds, amber accents, cocoa ink in place of harsh black. A faint paper grain over a two-stop radial glow.</sub>
+      <h3>🫖 &nbsp; cream, not white</h3>
+      <sub>warm cream, soft amber, cocoa instead of harsh black. easy on the eyes, always.</sub>
     </td>
     <td width="33%" valign="top">
-      <h3>🌿 &nbsp; Calm</h3>
-      <sub>Translation streams as you type — no buttons to mash. Animations are slow springs, not snappy easings. Selection and focus stay amber-tinted.</sub>
+      <h3>🌿 &nbsp; no buttons</h3>
+      <sub>just type. it translates as you go. no clicking, no confirming, no rush.</sub>
     </td>
     <td width="33%" valign="top">
-      <h3>📜 &nbsp; Considered</h3>
-      <sub>Fraunces serif for content (the translation feels editorial). Inter sans for UI chrome. SVG flags so Windows users get real flags, not letter pairs.</sub>
+      <h3>📜 &nbsp; lil real flags</h3>
+      <sub>svg flags so windows users see 🇬🇧 instead of just &ldquo;GB&rdquo;. fraunces serif for the translation itself ♡</sub>
     </td>
   </tr>
 </table>
@@ -90,11 +90,11 @@ Vocumi is built on three feelings: **warm**, **calm**, **considered**. Every sur
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://fonts.google.com/specimen/Fraunces">Fraunces</a></h3>
-      <sub>The bookish serif used for the brand mark, hero, and the translation content itself — soft optical sizes, a hint of wonk. Reading a translation should feel like opening a paperback.</sub>
+      <sub>the soft serif. used for the brand and the translation text itself ♡</sub>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://fonts.google.com/specimen/Inter">Inter</a></h3>
-      <sub>The clean sans used for UI chrome — buttons, labels, captions, selectors. Stays quiet so Fraunces can sing.</sub>
+      <sub>for everything else. buttons, labels, lil captions, dropdowns.</sub>
     </td>
   </tr>
 </table>
@@ -216,10 +216,10 @@ src/
 
 <div align="center">
 
-<sub>Translation by <a href="https://translate.google.com">Google Translate</a> · fallback by <a href="https://mymemory.translated.net">MyMemory</a> · both free, no API keys</sub>
+<sub>powered by <a href="https://translate.google.com">google</a> ✿ backed up by <a href="https://mymemory.translated.net">mymemory</a> ✿ no api keys, ever</sub>
 
 <br />
 
-<sub><b>Vocumi</b> · brewed with care · ✦</sub>
+<sub><b>vocumi</b> · a soft place for words · ✦</sub>
 
 </div>
